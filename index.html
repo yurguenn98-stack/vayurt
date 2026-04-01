@@ -11,13 +11,15 @@ body{
     max-width:700px;
     margin:0 auto;
     padding:20px;
-    background:#fff8f0;
-    color:#003366;
+    background:#F5EFE6; /* Crema */
+    color:#2D2D2D; /* Carbón Vayurt */
 }
 
 header{
     text-align:center;
     margin-bottom:30px;
+    border-bottom: 3px solid #C9956A; /* Terracota Dulce */
+    padding-bottom: 14px;
 }
 
 header img{
@@ -28,7 +30,7 @@ header img{
 .tagline{
     font-size:1.2em;
     font-weight:bold;
-    color:#d35400;
+    color:#D4768A; /* Rosa Profundo */
 }
 
 section{
@@ -48,7 +50,7 @@ ul li{
 
 ul li::before{
     content:"•";
-    color:#d35400;
+    color:#D47A8A; /* Rosa Profundo */
     position:absolute;
     left:0;
 }
@@ -56,34 +58,34 @@ ul li::before{
 .flavors{
     font-style:italic;
     margin-bottom:20px;
-    color:#0077c2;
+    color:#FA2B88; /* Rosa Vayurt */
 }
 
 .whatsapp-button{
     display:inline-block;
-    background-color:#25d366;
+    background-color:#FA2B88; /* Rosa Vayurt */
     color:white;
     padding:12px 20px;
     font-size:1em;
     font-weight:bold;
-    border-radius:5px;
+    border-radius:8px;
     text-decoration:none;
     margin-top:15px;
     text-align:center;
 }
 
 .whatsapp-button:hover{
-    background-color:#1ebe57;
+    background-color:#D4768A; /* Rosa Profundo */
 }
 
 .instagram-button{
     display:inline-block;
-    background-color:#e1306c;
+    background-color:#C9956A; /* Terracota Dulce */
     color:white;
     padding:12px 20px;
     font-size:1em;
     font-weight:bold;
-    border-radius:5px;
+    border-radius:8px;
     text-decoration:none;
     margin-top:10px;
     text-align:center;
@@ -91,7 +93,7 @@ ul li::before{
 }
 
 .instagram-button:hover{
-    background-color:#c13584;
+    background-color:#A7704E; /* sombra Terracota */
 }
 
 footer{
@@ -271,10 +273,10 @@ Enviar mensaje por Instagram
 
 <script>
 const nutricional={
-    Fresa: { porcion: "100 g", calorias: "97 kcal", grasas: "3.5 g", carbohidratos: "13.5 g", azucar: "13.2 g", proteinas: "4.3 g" },
-  Mango: { porcion: "100 g", calorias: "101 kcal", grasas: "3.6 g", carbohidratos: "14.2 g", azucar: "13.9 g", proteinas: "4.3 g" },
-  Arandanos: { porcion: "100 g", calorias: "99 kcal", grasas: "3.5 g", carbohidratos: "13.9 g", azucar: "12.9 g", proteinas: "4.3 g" },
-  Frambuesa: { porcion: "100 g", calorias: "98 kcal", grasas: "3.6 g", carbohidratos: "13.7 g", azucar: "12.4 g", proteinas: "4.4 g" }
+    Fresa:{porcion:"100 g",calorias:"95 kcal",grasas:"3.5 g",carbohidratos:"12 g",azucar:"10 g",proteinas:"4 g"},
+    Mango:{porcion:"100 g",calorias:"98 kcal",grasas:"3.6 g",carbohidratos:"13 g",azucar:"11 g",proteinas:"3.8 g"},
+    Arandanos:{porcion:"100 g",calorias:"92 kcal",grasas:"3.4 g",carbohidratos:"11 g",azucar:"9 g",proteinas:"3.9 g"},
+    Frambuesa:{porcion:"100 g",calorias:"90 kcal",grasas:"3.2 g",carbohidratos:"10 g",azucar:"8 g",proteinas:"4.1 g"}
 };
 
 function crearTabla(obj){
@@ -325,3 +327,5 @@ document.addEventListener("keydown", function(e){
 
 </body>
 </html>
+```
+
