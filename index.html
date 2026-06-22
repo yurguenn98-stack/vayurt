@@ -209,8 +209,9 @@ footer{
 
 <section>
 <h2>Sabores disponibles</h2>
-<p class="flavors">Fresa, Mango, Arándanos, Frambuesa</p>
-
+<p class="flavors"> Sabores Regulares: Fresa, Mango, Arándanos, Frambuesa</p>
+<p class="flavors"> Sabores Especiales: Maracuya, Guanabana, Mora </p>
+    
 <div class="sabores-container">
 
 <div class="sabor">
@@ -232,7 +233,22 @@ footer{
 <img src="Frambuesa.png" data-flavor="Frambuesa" alt="Yogurt de Frambuesa">
 <div>Frambuesa</div>
 </div>
-
+    
+<div class="sabor">
+<img src="maracuya.png" data-flavor="Maracuya" alt="Yogurt de Maracuya">
+<div>Maracuya</div>
+</div>
+    
+<div class="sabor">
+<img src="guanabana.png" data-flavor="Guanabana" alt="Yogurt de Guanabana">
+<div>Guanabana</div>
+</div>
+    
+<div class="sabor">
+<img src="mora.png" data-flavor="Mora" alt="Yogurt de Mora">
+<div>Mora</div>
+</div>
+    
 </div>
 </section>
 
@@ -273,10 +289,13 @@ Enviar mensaje por Instagram
 
 <script>
 const nutricional={
-    Fresa:{porcion:"100 g",calorias:"95 kcal",grasas:"3.5 g",carbohidratos:"12 g",azucar:"10 g",proteinas:"4 g"},
-    Mango:{porcion:"100 g",calorias:"98 kcal",grasas:"3.6 g",carbohidratos:"13 g",azucar:"11 g",proteinas:"3.8 g"},
-    Arandanos:{porcion:"100 g",calorias:"92 kcal",grasas:"3.4 g",carbohidratos:"11 g",azucar:"9 g",proteinas:"3.9 g"},
-    Frambuesa:{porcion:"100 g",calorias:"90 kcal",grasas:"3.2 g",carbohidratos:"10 g",azucar:"8 g",proteinas:"4.1 g"}
+    Fresa:{porcion:"100 g",calorias:"84 kcal",grasas:"3.1 g",carbohidratos:"10.9 g",azucar:"10.3 g",proteinas:"3.4 g"},
+    Mango:{porcion:"100 g",calorias:"87 kcal",grasas:"3.1 g",carbohidratos:"11.4 g",azucar:"11 g",proteinas:"3.4 g"},
+    Arandanos:{porcion:"100 g",calorias:"86 kcal",grasas:"3.1 g",carbohidratos:"11.4 g",azucar:"10.7 g",proteinas:"3.4 g"},
+    Frambuesa:{porcion:"100 g",calorias:"86 kcal",grasas:"3.2 g",carbohidratos:"11.2 g",azucar:"10.3 g",proteinas:"3.4 g"}
+    Maracuya:{porcion:"100 g",calorias:"89 kcal",grasas:"3.2 g",carbohidratos:"12 g",azucar:"10.8 g",proteinas:"3.5 g"}
+    Mora:{porcion:"100 g",calorias:"85 kcal",grasas:"3.1 g",carbohidratos:"11 g",azucar:"10.3 g",proteinas:"3.4 g"}
+    Guanabana:{porcion:"100 g",calorias:"87 kcal",grasas:"3.1 g",carbohidratos:"11.6 g",azucar:"11 g",proteinas:"3.4 g"}
 };
 
 function crearTabla(obj){
